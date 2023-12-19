@@ -7,3 +7,13 @@
     @apply bg-gradient-to-r from-slate-700 via-slate-800 to-slate-900 text-slate-50
   }
 }
+swiper-container{
+}
+:root {
+  --swiper-navigation-color: orange;
+  --swiper-theme-color: orange;
+  --swiper-pagination-color: orange;
+}
+.swiper-pagination-bullet-active {
+  @apply bg-orange-600
+}
