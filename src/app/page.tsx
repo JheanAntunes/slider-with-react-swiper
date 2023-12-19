@@ -1,11 +1,11 @@
-import ExampleSliderSwiperCustom from '@/components/ui/example-slider-swiper-custom'
-import { ExampleSliderSwiperV11 } from '@/components/ui/example-slider-swiper-v-11'
-import Image from 'next/image'
+import ExampleSliderSwiperAutoScroll from '@/components/ui/example-slider-swiper-auto-scroll'
+import ExampleSliderSwiperBasic from '@/components/ui/example-slider-swiper-basic'
 
 export default function Home() {
   return (
-   <main>
-    <ExampleSliderSwiperCustom />
-   </main>
+    <main className="flex flex-col gap-8 py-8">
+      <ExampleSliderSwiperBasic />
+      <ExampleSliderSwiperAutoScroll />
+    </main>
   )
 }
