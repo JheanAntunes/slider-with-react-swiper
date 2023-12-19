@@ -1,4 +1,4 @@
-import 'swiper/css'
+import 'swiper/swiper-bundle.css'
 import { Swiper } from '../swiper'
 import { TypographyH1 } from '../typography'
 import GenerateSwiperSliders from '../utils/generate-swiper-sliders'
